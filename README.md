@@ -65,9 +65,9 @@ probe generalization.
 | 2 | 0.000423% | 15.113% | 0.999755 |
 
 All six final fits have population KL between approximately
-\(3.5\times10^{-12}\) and \(4.0\times10^{-11}\). In the pair used for SMC,
-KL is \(9.3192\times10^{-12}\) for the factored checkpoint and
-\(1.8240\times10^{-11}\) for the joint checkpoint.
+$3.5\times10^{-12}$ and $4.0\times10^{-11}$. In the pair used for SMC,
+KL is $9.3192\times10^{-12}$ for the factored checkpoint and
+$1.8240\times10^{-11}$ for the joint checkpoint.
 
 ![Interaction component across the two factor histories](./results_paired/analysis/interaction_geometry.png)
 
@@ -87,18 +87,18 @@ contains no joint information. See [methods and interpretation](./docs/METHODS.m
 
 ## Localized free energy
 
-Let \(K(w)\) be the context-weighted population prediction KL and \(w_*\) a
-saved checkpoint. We use the same localization precision \(\gamma=100\)
+Let $K(w)$ be the context-weighted population prediction KL and $w_{\ast}$ a
+saved checkpoint. We use the same localization precision $\gamma=100$
 for both arms:
 
 $$
-p_0(w)=\mathcal N(w_*,I/100),
+p_0(w)=\mathcal{N}(w_{\ast},I/100),
 \qquad
-F(\tau)=-\log\mathbb E_{p_0}\left[\exp\left(-\tau[K(w)-K(w_*)]\right)\right].
+F(\tau)=-\log\mathbb{E}_{p_0}\left[\exp\left(-\tau[K(w)-K(w_{\ast})]\right)\right].
 $$
 
-The normalized Gaussian fixes \(F(0)=0\). Its coordinate standard deviation
-is 0.1; \(\tau\) changes the preference for low prediction loss while the
+The normalized Gaussian fixes $F(0)=0$. Its coordinate standard deviation
+is 0.1; $\tau$ changes the preference for low prediction loss while the
 localization remains fixed. Lower free energy means greater Gaussian-weighted
 low-loss parameter volume in these weight coordinates.
 
@@ -111,7 +111,7 @@ it does not replace the objective or restrict the parameter space.
 ![Localized free-energy comparison](./results_smc/free_energy_simple.png)
 
 The primary estimates use four independent 128-particle populations per arm,
-with longer HMC trajectories from \(\tau=10^6\) onward. Parentheses give one
+with longer HMC trajectories from $\tau=10^6$ onward. Parentheses give one
 Monte Carlo standard error across complete populations.
 
 | Inverse temperature | Factored free energy | Joint free energy |
@@ -122,22 +122,22 @@ Monte Carlo standard error across complete populations.
 | 10,000,000 | 156.65 (0.33) | 171.43 (0.28) |
 | 100,000,000, provisional | 217.07 (0.16) | 237.27 (0.31) |
 
-Particle-count and HMC-effort checks broadly agree through \(10^7\). At
-\(10^8\), sampling is more sensitive and the estimates remain provisional.
+Particle-count and HMC-effort checks broadly agree through $10^7$. At
+$10^8$, sampling is more sensitive and the estimates remain provisional.
 Increasing finite-window slopes prevent identifying the observed gap with
 a difference in asymptotic LLCs. SMC uses one training pair; independent SMC
 populations quantify integration variability, not variation across training
 initializations.
 
-Writing the loss-weighted distribution as \(\pi_\tau\), the exact decomposition is
+Writing the loss-weighted distribution as $\pi_\tau$, the exact decomposition is
 
 $$
-F(\tau)=\tau\mathbb E_{\pi_\tau}[K(w)-K(w_*)]
+F(\tau)=\tau\mathbb{E}_{\pi_\tau}[K(w)-K(w_{\ast})]
 +D_{\mathrm{KL}}(\pi_\tau\Vert p_0).
 $$
 
 The concentration term accounts for about 75% of the free-energy gap at
-\(10^6\) and 85% at \(10^7\). This is a property of the localized parameter
+$10^6$ and 85% at $10^7$. This is a property of the localized parameter
 distributions. It does not determine optimizer basin probabilities or the
 frequency of either representation under SGD.
 
