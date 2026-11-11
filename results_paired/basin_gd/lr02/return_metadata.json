@@ -1,0 +1,209 @@
+{
+  "arguments": {
+    "output": "results_paired/basin_gd/lr02",
+    "count": 64,
+    "steps": 20000,
+    "learning_rate": 0.2,
+    "seed": 202610300,
+    "mode": "return"
+  },
+  "parameter_dimension": 628,
+  "initializer_support_dimension": 600,
+  "dataset_sha256": "6423d256d69380ae510f9932b5c30d63465fb90e59d1f2e825bd146403cd1de9",
+  "checkpoint_sha256": {
+    "results_paired/factored_seed0/checkpoint.npz": "1d5e6fecd3e04dfe5e7738a8f799288a1ee31ee06137ceaff5f964231aacfc1a",
+    "results_paired/factored_seed1/checkpoint.npz": "3845c43f690adc7fe09d8640644c4915fed70ded0841775bf7ee886252b47fb9",
+    "results_paired/factored_seed2/checkpoint.npz": "49322fd5cb62d2eeeaa37a05362d73c69d5de50acb5eb6971e4ec3e37848b84c",
+    "results_paired/joint_seed0/checkpoint.npz": "a1f3ee1c14448f44991f0fa31a31488dffa0d1f5ae779ce50c8cb8c772db0485",
+    "results_paired/joint_seed1/checkpoint.npz": "5223b217305a3ab9d99f8b73d74cb8b835503c1701a2d4bbc098ba31569dc069",
+    "results_paired/joint_seed2/checkpoint.npz": "4ca4a072c7136c4b4065e3f60be7f152b41a83de74a1cce4b9442fde4ee27c4c"
+  },
+  "source_sha256": "5326717b1efdc4fceac5b30b031e8b5ab9ef7388eb004335b97ee039a85b2a8c",
+  "torch_version": "2.14.1",
+  "numpy_version": "2.5.4",
+  "device": "cpu",
+  "dtype": "float64",
+  "dynamics": "full_batch_euclidean_gradient_descent",
+  "trajectory_labels": [
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 3
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 3
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 3
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 1,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 2,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.01,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.03,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.1,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 1,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 2,
+      "coordinate_sd": 0.0,
+      "replicate": 0
+    }
+  ]
+}

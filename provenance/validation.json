@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-11",
+  "python": "3.12.16",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.14.1"
+  },
+  "tests_passed": 31,
+  "distributed_asset_count": 182,
+  "fresh_training": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "arms": [
+      "factored",
+      "joint"
+    ],
+    "all_final_weights_bitwise_identical": true
+  },
+  "fresh_persistence": {
+    "steps": 20000,
+    "learning_rate": 0.2,
+    "trajectories": 6,
+    "all_classes_retained_at_recorded_steps": true,
+    "all_endpoint_metrics_exactly_match_original": true
+  },
+  "smc": {
+    "reaggregated_curve_points": 255,
+    "reaggregated_production_populations": 96,
+    "fresh_transformer_cli_smoke_maximum_tau": 100,
+    "full_production_rerun": false
+  },
+  "source_sha256": {
+    "analyze_paired.py": "0bafc10acd0355a4c14c8e6cf4f331c1ef030ee7bf55c00aaf868e84930de6c1",
+    "analyze_smc.py": "da55e04ce05092421418f2ad7e2a990787e2b084907bf4282284931a98d16e9e",
+    "experiment.py": "97593b9abe341ce90db554783f822f6d3eba1c8e1d7ac5b0d65c0c353c59607b",
+    "geometry.py": "fdbe4a97dc6ec420f3855f196346bda76c099763cce8cdff889638943a8d646f",
+    "paired_experiment.py": "59c1422454af204d115ac29b0f6fd842c1a0e02cd8a6c813fa4ab109828750b6",
+    "persistence.py": "74d7e08b7fad78c0b1f40d47a9b6d8ebb119f1d2a5845fc8e8fd8a88c4fe745a",
+    "problems.py": "f2f4c31439be3db2ff49a4b57605f101903cd417b654e894076963b97670badd",
+    "smc.py": "7f8572565f9a3613e5b5793d8420e0031aa6c3009cd3b48a96ab22e5be447c86",
+    "verify_results.py": "1f374f6f7e26ee2e77ee498cde4fa4d79f6d7e44cf6a8ed000dc0275073168b2"
+  }
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.0,
+    "terminal_step": 20000,
+    "count": 3,
+    "total": 3,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.2924017738212866,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -1.2296264847046454,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      9.279619346011381e-12,
+      1.873581104238596e-11,
+      3.39241460500926e-12
+    ],
+    "final_gradient_norm": [
+      2.8493191651855024e-09,
+      4.627711338180544e-09,
+      2.9819759745830526e-09
+    ],
+    "final_nonadditivity": [
+      4.9747196647699015e-06,
+      1.7779829501875645e-05,
+      4.229079885902211e-06
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.01,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      2.2393777894966287e-08,
+      2.0751880501639098e-08,
+      2.146844852479324e-08,
+      3.0122528429052436e-08
+    ],
+    "final_gradient_norm": [
+      2.246094474254772e-06,
+      1.9198683325178784e-06,
+      2.3115470829251795e-06,
+      2.472604056648576e-06
+    ],
+    "final_nonadditivity": [
+      1.5546609759897403e-05,
+      2.8930287401194558e-05,
+      7.604678245244289e-06,
+      7.232861861294459e-06
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.03,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      2.2363778506184944e-07,
+      3.288275731151244e-07,
+      4.10579076653266e-07,
+      4.2704200911682085e-07
+    ],
+    "final_gradient_norm": [
+      7.676354818278236e-06,
+      9.07959278936267e-06,
+      1.1734932976378276e-05,
+      9.339911989265956e-06
+    ],
+    "final_nonadditivity": [
+      7.698702193672029e-05,
+      0.0003523493506487438,
+      0.00015340847527761125,
+      4.141087391420865e-05
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.1,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      1.4308480013124525e-06,
+      1.5407534382981827e-06,
+      4.357801221951996e-06,
+      2.1086647057579124e-06
+    ],
+    "final_gradient_norm": [
+      1.685864636455644e-05,
+      2.321112466590685e-05,
+      4.0687427046521184e-05,
+      2.3425512977965566e-05
+    ],
+    "final_nonadditivity": [
+      0.0005515610903265825,
+      0.000317590265194175,
+      0.0010983289005942845,
+      0.000611946518200945
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.0,
+    "terminal_step": 20000,
+    "count": 3,
+    "total": 3,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.2924017738212866,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -1.2296264847046454,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      1.8181034059841565e-11,
+      3.998164546042747e-11,
+      5.799401131818081e-12
+    ],
+    "final_gradient_norm": [
+      3.404393509835189e-09,
+      6.506118929145069e-09,
+      1.5283793417249613e-09
+    ],
+    "final_nonadditivity": [
+      0.17485125628576995,
+      0.11053825442020561,
+      0.15113043786103042
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.01,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      2.276407585744731e-08,
+      1.6987939074888436e-08,
+      1.567078087841117e-08,
+      2.1009999996238003e-08
+    ],
+    "final_gradient_norm": [
+      2.4987145316443183e-06,
+      2.8702493341740167e-06,
+      2.0465204292569408e-06,
+      2.941867821715693e-06
+    ],
+    "final_nonadditivity": [
+      0.17881920641649737,
+      0.1770937427795702,
+      0.18177636264094643,
+      0.17683117390163883
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.03,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      1.4696504751481533e-07,
+      1.4719999482353252e-07,
+      2.187161724524844e-07,
+      1.9898866469225142e-07
+    ],
+    "final_gradient_norm": [
+      5.869472500098115e-06,
+      6.4759566401347364e-06,
+      9.992321287883254e-06,
+      7.6158912824738715e-06
+    ],
+    "final_nonadditivity": [
+      0.19018958893963542,
+      0.1703791620508923,
+      0.18741874165783767,
+      0.19002941011201302
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.1,
+    "terminal_step": 20000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      1.719314078188436e-06,
+      1.9063481591541695e-06,
+      1.7837846647771026e-06,
+      1.7831802877953693e-06
+    ],
+    "final_gradient_norm": [
+      1.99708098755487e-05,
+      2.2312807481421987e-05,
+      2.8638290199325696e-05,
+      2.5770740978623558e-05
+    ],
+    "final_nonadditivity": [
+      0.15924657212154833,
+      0.12941236471205259,
+      0.17733447297784827,
+      0.12799141506576775
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.2,
+    "terminal_step": 50000,
+    "count": 4,
+    "total": 4,
+    "probability": 1.0,
+    "probability_interval_95": [
+      0.3976353643835253,
+      1.0
+    ],
+    "log_probability": 0.0,
+    "log_probability_interval_95": [
+      -0.9222198635284842,
+      0.0
+    ],
+    "failed": 0,
+    "final_kl": [
+      2.304301480760475e-06,
+      1.921829875274965e-06,
+      1.962129362586423e-06,
+      2.2116905712586014e-06
+    ],
+    "final_gradient_norm": [
+      1.973778375141672e-05,
+      1.645335439040985e-05,
+      1.909865153109775e-05,
+      1.8677024221992485e-05
+    ],
+    "final_nonadditivity": [
+      0.0014447116438720635,
+      0.004478335473660635,
+      0.0005862937373931873,
+      0.002176986697012189
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.3,
+    "terminal_step": 50000,
+    "count": 2,
+    "total": 4,
+    "probability": 0.5,
+    "probability_interval_95": [
+      0.06758598648854294,
+      0.932414013511457
+    ],
+    "log_probability": -0.6931471805599453,
+    "log_probability_interval_95": [
+      -2.694354617888271,
+      -0.0699783424274097
+    ],
+    "failed": 0,
+    "final_kl": [
+      8.700422653714766e-06,
+      0.00013636774847253767,
+      3.936113238897039e-05,
+      8.37270721785351e-05
+    ],
+    "final_gradient_norm": [
+      3.879418387035598e-05,
+      0.008057522858325696,
+      7.27154535404562e-05,
+      3.444848084914505e-05
+    ],
+    "final_nonadditivity": [
+      0.01670724292479637,
+      0.020371229469185837,
+      0.006065785099015725,
+      0.006529242070988686
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "factored",
+    "coordinate_sd": 0.5,
+    "terminal_step": 50000,
+    "count": 0,
+    "total": 4,
+    "probability": 0.0,
+    "probability_interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "log_probability": null,
+    "log_probability_interval_95": [
+      null,
+      -0.5068923100356524
+    ],
+    "failed": 4,
+    "final_kl": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "final_gradient_norm": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "final_nonadditivity": [
+      0.11482510468458981,
+      0.6187079031940894,
+      0.42309176640350166,
+      0.5407210080839824
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.2,
+    "terminal_step": 50000,
+    "count": 2,
+    "total": 4,
+    "probability": 0.5,
+    "probability_interval_95": [
+      0.06758598648854294,
+      0.932414013511457
+    ],
+    "log_probability": -0.6931471805599453,
+    "log_probability_interval_95": [
+      -2.694354617888271,
+      -0.0699783424274097
+    ],
+    "failed": 0,
+    "final_kl": [
+      1.0639564196723715e-06,
+      5.328134798431765e-06,
+      2.956055551422514e-06,
+      5.090462758876193e-06
+    ],
+    "final_gradient_norm": [
+      1.5284227474088155e-05,
+      2.6659897720626416e-05,
+      2.2111901706594373e-05,
+      2.9062478319048365e-05
+    ],
+    "final_nonadditivity": [
+      0.07523757108904998,
+      0.10699399984481349,
+      0.052046216912960096,
+      0.2021483730092005
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.3,
+    "terminal_step": 50000,
+    "count": 0,
+    "total": 4,
+    "probability": 0.0,
+    "probability_interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "log_probability": null,
+    "log_probability_interval_95": [
+      null,
+      -0.5068923100356524
+    ],
+    "failed": 0,
+    "final_kl": [
+      2.4255286258589502e-05,
+      2.596526726002068e-05,
+      1.1687559066274454e-05,
+      1.2506309325676305e-05
+    ],
+    "final_gradient_norm": [
+      5.042184085694768e-05,
+      0.00011906547884748841,
+      4.12471974383987e-05,
+      3.579307273422999e-05
+    ],
+    "final_nonadditivity": [
+      0.04385749761697477,
+      0.0075708557337594495,
+      0.04074191416137631,
+      0.026180626535633147
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  },
+  {
+    "arm": "joint",
+    "coordinate_sd": 0.5,
+    "terminal_step": 50000,
+    "count": 0,
+    "total": 4,
+    "probability": 0.0,
+    "probability_interval_95": [
+      0.0,
+      0.6023646356164746
+    ],
+    "log_probability": null,
+    "log_probability_interval_95": [
+      null,
+      -0.5068923100356524
+    ],
+    "failed": 4,
+    "final_kl": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "final_gradient_norm": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "final_nonadditivity": [
+      0.7337572763910393,
+      0.3859376197177401,
+      0.8308105910833593,
+      0.726753498516049
+    ],
+    "caveat": "Checkpoint-centered Gaussian conditional return, not initialization mass."
+  }
+]

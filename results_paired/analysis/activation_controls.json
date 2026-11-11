@@ -1,0 +1,83 @@
+[
+  {
+    "seed": 0,
+    "factored": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.16841890391304476,
+      "weighted_centered_variance": 0.9481547762256165
+    },
+    "joint": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.2897156138811552,
+      "weighted_centered_variance": 0.9036975303555841
+    },
+    "column_space_cosines": [
+      0.9999999999540717,
+      0.9999999998119053,
+      0.999546972155103,
+      0.997842845283413,
+      0.9946149516154744,
+      0.9652067984395017,
+      0.6773268649129619,
+      0.3180767390176821
+    ],
+    "factored_to_joint_affine_residual_fraction": 0.0015153241112014397,
+    "joint_to_factored_affine_residual_fraction": 8.498752315437942e-06
+  },
+  {
+    "seed": 1,
+    "factored": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.21558957107050497,
+      "weighted_centered_variance": 0.9356934468976106
+    },
+    "joint": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.23208053219435154,
+      "weighted_centered_variance": 0.6720981448135656
+    },
+    "column_space_cosines": [
+      0.9999999999212077,
+      0.9999999996336291,
+      0.9999635546601353,
+      0.9998156522673465,
+      0.9782453762000624,
+      0.9665415929260158,
+      0.471783838153739,
+      0.35892262860267415
+    ],
+    "factored_to_joint_affine_residual_fraction": 0.024694972320292198,
+    "joint_to_factored_affine_residual_fraction": 1.8161226723038704e-05
+  },
+  {
+    "seed": 2,
+    "factored": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.21030117757151742,
+      "weighted_centered_variance": 0.923294540119911
+    },
+    "joint": {
+      "numerical_centered_rank": 8,
+      "rank_relative_cutoff": 1e-12,
+      "whitened_nonadditive_fraction": 0.20900430209572374,
+      "weighted_centered_variance": 0.8127051339384654
+    },
+    "column_space_cosines": [
+      0.9999999999842935,
+      0.9999999999376596,
+      0.9999079453636917,
+      0.9990611375404681,
+      0.9694938353967095,
+      0.958402899897096,
+      0.826764439652122,
+      0.04386002154114396
+    ],
+    "factored_to_joint_affine_residual_fraction": 0.004666615824122163,
+    "joint_to_factored_affine_residual_fraction": 1.164515334961862e-05
+  }
+]

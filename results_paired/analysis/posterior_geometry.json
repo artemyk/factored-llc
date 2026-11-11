@@ -1,0 +1,82 @@
+[
+  {
+    "seed": 0,
+    "arm": "factored",
+    "tau": 1000000.0,
+    "gamma": 100.0,
+    "samples": 120,
+    "mean_fraction": 0.0020177374408137734,
+    "lower_quantile": 0.0003032447520887549,
+    "upper_quantile": 0.0057368166835448375
+  },
+  {
+    "seed": 2,
+    "arm": "factored",
+    "tau": 100000.0,
+    "gamma": 100,
+    "samples": 100,
+    "mean_fraction": 0.004279138038688258,
+    "lower_quantile": 0.001280637780411903,
+    "upper_quantile": 0.009607126164603571
+  },
+  {
+    "seed": 2,
+    "arm": "factored",
+    "tau": 1000000.0,
+    "gamma": 100.0,
+    "samples": 120,
+    "mean_fraction": 0.0018422630204543127,
+    "lower_quantile": 0.00034389430053715644,
+    "upper_quantile": 0.005239385963805615
+  },
+  {
+    "seed": 2,
+    "arm": "factored",
+    "tau": 1000000.0,
+    "gamma": 400,
+    "samples": 100,
+    "mean_fraction": 0.0008196785289390507,
+    "lower_quantile": 0.00015003318715426373,
+    "upper_quantile": 0.002370319335904246
+  },
+  {
+    "seed": 0,
+    "arm": "joint",
+    "tau": 1000000.0,
+    "gamma": 100.0,
+    "samples": 120,
+    "mean_fraction": 0.14122452031873944,
+    "lower_quantile": 0.08818842342719209,
+    "upper_quantile": 0.20322793968756642
+  },
+  {
+    "seed": 2,
+    "arm": "joint",
+    "tau": 100000.0,
+    "gamma": 100.0,
+    "samples": 120,
+    "mean_fraction": 0.11461149711287137,
+    "lower_quantile": 0.06025411961543745,
+    "upper_quantile": 0.17274516453434016
+  },
+  {
+    "seed": 2,
+    "arm": "joint",
+    "tau": 1000000.0,
+    "gamma": 100,
+    "samples": 100,
+    "mean_fraction": 0.11120305669709767,
+    "lower_quantile": 0.06765763329844815,
+    "upper_quantile": 0.15574062090419874
+  },
+  {
+    "seed": 2,
+    "arm": "joint",
+    "tau": 1000000.0,
+    "gamma": 400.0,
+    "samples": 120,
+    "mean_fraction": 0.14046334830561266,
+    "lower_quantile": 0.10602765224800301,
+    "upper_quantile": 0.17414852758823518
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "estimate": 18.076273253852992,
+  "chain_estimates": [
+    17.11901763689763,
+    19.991673816697887,
+    16.902015871403684,
+    18.2923856904128
+  ],
+  "chain_mcse": [
+    2.607309458844103,
+    0.6864703389532886,
+    0.8779705567852577,
+    0.5468014713063485
+  ],
+  "acceptance": 0.6974166666666667,
+  "final_step_size": 0.003822673852583757,
+  "original_weight_rms_displacement": 0.09673172363933817,
+  "mean_log_accept": -0.7112852493345466,
+  "baseline_loss": 5.8150892490827096e-12,
+  "tau": 100000.0,
+  "gamma": 100,
+  "quadratic_reference": 17.320341938587763,
+  "burnin": 2500,
+  "draws": 6000,
+  "thin": 1,
+  "chains": 4,
+  "sampler_seed": 20002,
+  "rhat": 1.1099122442987044,
+  "ess": 25.66482217641029,
+  "mcse": 0.818642808252096,
+  "arm": "joint",
+  "seed": 2,
+  "dataset_sha256": "6423d256d69380ae510f9932b5c30d63465fb90e59d1f2e825bd146403cd1de9",
+  "final_auxiliary_coefficient": 0.0,
+  "usable": false
+}

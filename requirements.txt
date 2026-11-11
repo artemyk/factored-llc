@@ -1,0 +1,6 @@
+# Versions used by the saved experiment. See docs/REPRODUCING.md for portability.
+numpy==2.5.4
+scipy==1.18.1
+torch==2.14.1
+matplotlib==3.11.2
+tqdm==4.70.1

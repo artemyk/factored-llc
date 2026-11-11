@@ -1,0 +1,178 @@
+{
+  "arguments": {
+    "output": "results_paired/basin_gd/lr02/wide_return",
+    "count": 64,
+    "steps": 50000,
+    "learning_rate": 0.2,
+    "seed": 202612300,
+    "mode": "return",
+    "return_scales": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "return_seeds": [
+      0
+    ],
+    "return_repeats": 4
+  },
+  "parameter_dimension": 628,
+  "initializer_support_dimension": 600,
+  "dataset_sha256": "6423d256d69380ae510f9932b5c30d63465fb90e59d1f2e825bd146403cd1de9",
+  "checkpoint_sha256": {
+    "results_paired/factored_seed0/checkpoint.npz": "1d5e6fecd3e04dfe5e7738a8f799288a1ee31ee06137ceaff5f964231aacfc1a",
+    "results_paired/joint_seed0/checkpoint.npz": "a1f3ee1c14448f44991f0fa31a31488dffa0d1f5ae779ce50c8cb8c772db0485"
+  },
+  "source_sha256": "f25698ebab3bbf228f1eff5bd5b95a6903c186b2b314ccb39c34f519240c25cc",
+  "torch_version": "2.14.1",
+  "numpy_version": "2.5.4",
+  "device": "cpu",
+  "dtype": "float64",
+  "dynamics": "full_batch_euclidean_gradient_descent",
+  "trajectory_labels": [
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 3
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 3
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 0
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 1
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 2
+    },
+    {
+      "arm": "factored",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.2,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.3,
+      "replicate": 3
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 0
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 1
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 2
+    },
+    {
+      "arm": "joint",
+      "checkpoint_seed": 0,
+      "coordinate_sd": 0.5,
+      "replicate": 3
+    }
+  ]
+}
